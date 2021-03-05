@@ -14,12 +14,12 @@
   "author": "Ivo Janssen <hello@ivo.la>",
   "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.4",
-    "@vue/compiler-sfc": "^3.0.5",
-    "eslint": "^7.19.0",
-    "eslint-plugin-vue": "^7.5.0",
-    "sass": "^1.32.5",
-    "vite": "^2.0.0-beta.60"
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "eslint": "^7.21.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "sass": "^1.32.8",
+    "vite": "^2.0.5"
   },
   "dependencies": {
     "vue": "^3.0.5",
