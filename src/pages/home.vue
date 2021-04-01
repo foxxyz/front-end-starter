@@ -23,10 +23,4 @@ main
     h1
         font-size: 2em
         margin-bottom: .5em
-
-    img
-        width: 10em
-        height: 10em
-        margin: 0 auto
-        display: block
 </style>
