@@ -30,11 +30,13 @@ Once you're up and running, make sure to update the following items:
 
 1. Update package name and description in `package.json`
 2. Update author and repository info in `package.json`
-3. Update project title in `src/index.html`
+3. Update project title in `index.html`
 4. Change favicons (`src/favicon.ico`, `src/favicon-32x32.png` and `src/favicon-16x16.png`)
 5. Update git remote using `git remote set-url origin <git-repo-url>`
-6. Run `npm install` again to update `package-lock.json`
-7. Start building in `src/home.vue`
+6. Remove ci directory `rm -rf .github`
+7. Run `npm install` again to update `package-lock.json`
+8. Update or remove `LICENSE` file
+9. Start building your main page in `src/pages/home.vue`
 
 ### Suggested Project Structure
 
