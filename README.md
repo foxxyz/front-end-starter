@@ -54,7 +54,7 @@ Deployment
 ----------
 
 1. Compile: `npm run build`
-2. Upload contents of `public` to a directory accessible by your web server.
+2. Upload contents of `dist` to a directory accessible by your web server.
 
 License
 -------
