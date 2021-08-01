@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src"
+    "lint": "eslint --ext .js,.vue src"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     },
     "extends": [
       "eslint:recommended",
-      "plugin:vue/essential"
+      "plugin:vue/vue3-strongly-recommended"
     ],
     "parserOptions": {
       "ecmaVersion": 2017,
@@ -75,6 +75,10 @@
       "semi": [
         "error",
         "never"
+      ],
+      "vue/html-indent": [
+        "error",
+        4
       ]
     }
   }
