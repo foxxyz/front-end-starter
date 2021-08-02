@@ -17,6 +17,14 @@ Requirements
 Installation
 ------------
 
+No installation steps, quick configuration route using [`generate-front-end`](https://www.npmjs.com/package/generate-front-end):
+
+```
+npx generate-front-end
+```
+
+Or run the steps manually:
+
 1. Clone: `git clone https://github.com/foxxyz/front-end-starter.git`
 2. Install dependencies: `npm install`
 3. Test it works: `npm run dev`
@@ -25,6 +33,8 @@ Usage
 -----
 
 Once you're up and running, make sure to update the following items:
+
+_Note: below steps performed automatically if installed using [`generate-front-end`](https://www.npmjs.com/package/generate-front-end)_
 
 ### Customize
 
