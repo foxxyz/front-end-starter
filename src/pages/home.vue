@@ -1,7 +1,13 @@
 <template>
     <main>
         <div>
-            <h1>You're Online</h1>
+            <h1>⚡ Ready To Go ⚡</h1>
+            <p>
+                If you see this page, your front-end is set up!
+            </p>
+            <p>
+                Start editing <code>src/pages/home.vue</code> to remove this message.
+            </p>
         </div>
     </main>
 </template>
@@ -23,4 +29,10 @@ main
     h1
         font-size: 2em
         margin-bottom: .5em
+        text-align: center
+
+    p
+        text-align: center
+        margin-bottom: 1em
+        font-size: .8em
 </style>
