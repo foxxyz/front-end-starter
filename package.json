@@ -14,12 +14,12 @@
   "author": "Ivo Janssen <hello@ivo.la>",
   "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
+    "@vitejs/plugin-vue": "^1.9.4",
     "@vue/compiler-sfc": "^3.2.20",
     "eslint": "^8.1.0",
-    "eslint-plugin-vue": "^7.20.0",
+    "eslint-plugin-vue": "^8.0.3",
     "sass": "^1.43.4",
-    "vite": "^2.6.12"
+    "vite": "^2.6.13"
   },
   "dependencies": {
     "vue": "^3.2.20",
@@ -28,7 +28,8 @@
   "eslintConfig": {
     "env": {
       "es6": true,
-      "browser": true
+      "browser": true,
+      "vue/setup-compiler-macros": true
     },
     "extends": [
       "eslint:recommended",
@@ -79,7 +80,8 @@
       "vue/html-indent": [
         "error",
         4
-      ]
+      ],
+      "vue/multi-word-component-names": "off"
     }
   }
 }
