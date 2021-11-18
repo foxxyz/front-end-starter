@@ -14,6 +14,7 @@
   "author": "Ivo Janssen <hello@ivo.la>",
   "license": "MIT",
   "devDependencies": {
+    "@appliedminds/eslint-config": "^1.1.0",
     "eslint": "^8.2.0",
     "eslint-plugin-vue": "^8.1.0",
     "sass": "^1.43.4"
@@ -31,51 +32,10 @@
       "vue/setup-compiler-macros": true
     },
     "extends": [
-      "eslint:recommended",
+      "@appliedminds",
       "plugin:vue/vue3-strongly-recommended"
     ],
-    "parserOptions": {
-      "ecmaVersion": 2017,
-      "sourceType": "module"
-    },
     "rules": {
-      "eqeqeq": [
-        "error",
-        "always"
-      ],
-      "indent": [
-        "error",
-        4
-      ],
-      "linebreak-style": [
-        "error",
-        "unix"
-      ],
-      "quotes": [
-        "error",
-        "single"
-      ],
-      "no-console": [
-        "error",
-        {
-          "allow": [
-            "warn",
-            "info",
-            "error"
-          ]
-        }
-      ],
-      "object-curly-spacing": [
-        "error",
-        "always"
-      ],
-      "prefer-const": [
-        "error"
-      ],
-      "semi": [
-        "error",
-        "never"
-      ],
       "vue/html-indent": [
         "error",
         4
