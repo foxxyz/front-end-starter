@@ -35,6 +35,9 @@
       "@appliedminds",
       "plugin:vue/vue3-strongly-recommended"
     ],
+    "globals": {
+      "__APP_VERSION__": true
+    },
     "rules": {
       "vue/html-indent": [
         "error",

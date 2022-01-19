@@ -1,6 +1,12 @@
 <template>
     <router-view />
+    <span class="version">v{{ version }}</span>
 </template>
+
+<script setup>
+// Displays version set in package.json
+const version = __APP_VERSION__
+</script>
 
 <style lang="sass">
 // Reset default styles
@@ -24,6 +30,13 @@ html, body
 input
     font-size: inherit
     font-family: inherit
+
+.version
+    position: absolute
+    bottom: 0
+    right: 0
+    padding: .5em
+    font-size: .7em
 
 // Add font declarations here
 

@@ -1,7 +1,7 @@
 <template>
     <main>
         <div>
-            <h1>⚡ Ready To Go ⚡</h1>
+            <h1>⚡ Ready ⚡</h1>
             <p>
                 If you see this page, your front-end is set up!
             </p>
