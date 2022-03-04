@@ -41,7 +41,7 @@ _Note: below steps performed automatically if installed using [`generate-front-e
 1. Update package name and description in `package.json`
 2. Update author and repository info in `package.json`
 3. Update project title in `index.html`
-4. Change favicons (`src/favicon.ico`, `src/favicon-32x32.png` and `src/favicon-16x16.png`)
+4. Change favicons (`public/favicon.ico`, `public/favicon-32x32.png` and `public/favicon-16x16.png`)
 5. Update git remote using `git remote set-url origin <git-repo-url>`
 6. Remove ci directory `rm -rf .github`
 7. Run `npm install` again to update `package-lock.json`
