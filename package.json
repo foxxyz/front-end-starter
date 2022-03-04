@@ -26,24 +26,12 @@
     "vue-router": "^4.0.13"
   },
   "eslintConfig": {
-    "env": {
-      "es6": true,
-      "browser": true,
-      "vue/setup-compiler-macros": true
-    },
     "extends": [
       "@appliedminds",
-      "plugin:vue/vue3-strongly-recommended"
+      "@appliedminds/eslint-config/vue"
     ],
     "globals": {
       "__APP_VERSION__": true
-    },
-    "rules": {
-      "vue/html-indent": [
-        "error",
-        4
-      ],
-      "vue/multi-word-component-names": "off"
     }
   }
 }
