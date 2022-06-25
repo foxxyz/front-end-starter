@@ -12,7 +12,7 @@ Boilerplate code to quickly start a front-end web project using [Vite](https://g
 Requirements
 ------------
 
- * Node 12+
+ * Node 14+
 
 Installation
 ------------
