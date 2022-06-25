@@ -1,6 +1,6 @@
 {
   "name": "front-end-starter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Boilerplate front-end project with Vite, Vue 3, and Vue Router",
   "scripts": {
     "dev": "vite",
