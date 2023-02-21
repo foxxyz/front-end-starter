@@ -14,15 +14,15 @@
   "author": "Ivo Janssen <hello@ivo.la>",
   "license": "MIT",
   "devDependencies": {
-    "@appliedminds/eslint-config": "^1.3.0",
-    "eslint": "^8.29.0",
-    "eslint-plugin-vue": "^9.8.0",
-    "sass": "^1.56.2"
+    "@appliedminds/eslint-config": "^1.5.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "sass": "^1.58.3"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.0",
-    "vue": "^3.2.45",
+    "vite": "^4.1.3",
+    "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "eslintConfig": {
