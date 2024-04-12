@@ -25,14 +25,5 @@
     "vite": "^5.2.8",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@appliedminds",
-      "@appliedminds/eslint-config/vue"
-    ],
-    "globals": {
-      "__APP_VERSION__": true
-    }
   }
 }
