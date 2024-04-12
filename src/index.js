@@ -9,7 +9,8 @@ const app = createApp(App)
 
 // Set up router
 const routes = [
-    { path: '/', component: HomePage }
+    { path: '/', component: HomePage },
+    { path: '/:catchAll(.*)', redirect: '/' },
 ]
 const router = createRouter({ routes, history: createWebHistory() })
 app.use(router)
